@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShopAppTestProject</string>
+    <string name="already_log_in">Already registered, go to Log in?</string>
+    <string name="edit_text_Hint">Write a question or prompt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Login">Log In</string>
+    <string name="registr">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="forgotPass">Forgot your password?</string>
+    <string name="Payment">Payment</string>
+    <string name="Pay">Pay</string>
+</resources>

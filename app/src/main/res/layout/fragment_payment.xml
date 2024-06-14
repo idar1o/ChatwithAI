@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Заголовок окна оплаты -->
+    <TextView
+        android:id="@+id/tvPaymentHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Payment"
+        android:textSize="24sp" />
+
+    <!-- Поле для ввода имени владельца карты -->
+    <EditText
+        android:id="@+id/etCardholderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cardholder Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Поле для ввода номера карты -->
+    <EditText
+        android:id="@+id/etCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Card Number"
+        android:inputType="number"
+        android:maxLength="16"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Поле для ввода даты истечения срока действия карты -->
+    <EditText
+        android:id="@+id/etExpiryDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MM/YY"
+        android:inputType="date"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Поле для ввода CVV -->
+    <EditText
+        android:id="@+id/etCvv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CVV"
+        android:inputType="numberPassword"
+        android:maxLength="3"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Кнопка подтверждения оплаты -->
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:text="@string/Pay"
+        android:textColor="@android:color/white" />
+</LinearLayout>

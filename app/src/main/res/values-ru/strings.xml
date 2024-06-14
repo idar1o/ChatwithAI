@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShopAppTestProject</string>
+    <string name="already_log_in">Уже зарегистрированы?</string>
+    <string name="edit_text_Hint">Введите запрос или промпт</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Login">Вход</string>
+    <string name="registr">Регистрация</string>
+    <string name="password">Пароль</string>
+    <string name="email">Имейл</string>
+    <string name="forgotPass">Забыли свой пароль?</string>
+    <string name="Payment">Оплата</string>
+    <string name="Pay">Заплатить</string>
+</resources>

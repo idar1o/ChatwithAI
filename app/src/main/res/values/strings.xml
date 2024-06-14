@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ShopAppTestProject</string>
+    <string name="already_log_in">Регистрация кылгансызбы?</string>
+    <string name="edit_text_Hint">Суроо жазыныз</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Login">Кируу</string>
+    <string name="registr">Регистрация</string>
+    <string name="password">Пароль</string>
+    <string name="email">Имейл</string>
+    <string name="forgotPass">Паролду унутуп калдынызбы?</string>
+    <string name="Payment">Сатып алуу</string>
+    <string name="Pay">Сатып алуу</string>
+
+</resources>
